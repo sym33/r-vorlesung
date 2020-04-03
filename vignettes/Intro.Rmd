@@ -1,0 +1,24 @@
+---
+title: "Intro"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Intro}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+# Test
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(neu8)
+```
+
+```{r results='asis'}
+top(x,3)
+```
