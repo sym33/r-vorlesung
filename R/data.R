@@ -8,4 +8,4 @@
 #' @format A matrix of random normal data
 #' @keywords datasets
 #' @return NULL
-NULL
+""
